@@ -1,0 +1,58 @@
+{
+  "brooch": {
+    "width": 2421,
+    "height": 1695
+  },
+  "bus-stop": {
+    "width": 2731,
+    "height": 4096
+  },
+  "livestream": {
+    "width": 640,
+    "height": 480,
+    "frames": 345,
+    "durationMs": 11740
+  },
+  "motion-poster": {
+    "width": 640,
+    "height": 480,
+    "frames": 497,
+    "durationMs": 20710
+  },
+  "paper-bag": {
+    "width": 4096,
+    "height": 4096
+  },
+  "paper-box": {
+    "width": 3000,
+    "height": 2000
+  },
+  "poster-ag-cook": {
+    "width": 2690,
+    "height": 3807
+  },
+  "poster-charli": {
+    "width": 2894,
+    "height": 4096
+  },
+  "poster-sophie": {
+    "width": 2894,
+    "height": 4096
+  },
+  "social-charli": {
+    "width": 678,
+    "height": 847
+  },
+  "social-crowd": {
+    "width": 678,
+    "height": 847
+  },
+  "social-story": {
+    "width": 480,
+    "height": 852
+  },
+  "ticket": {
+    "width": 4096,
+    "height": 1521
+  }
+}

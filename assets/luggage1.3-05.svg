@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248.13 234.81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M79.25,64.02h73.14c9.11,0,16.49,6.94,16.49,15.49v100.13c0,8.56-7.38,15.49-16.49,15.49h-73.14"/>
+  <line class="cls-1" x1="79.75" y1="64.01" x2="79.75" y2="195.13"/>
+  <circle class="cls-1" cx="124.07" cy="109.78" r="30.29"/>
+  <ellipse class="cls-1" cx="124.52" cy="109.78" rx="12.68" ry="30.29"/>
+  <line class="cls-1" x1="93.77" y1="109.78" x2="154.36" y2="109.78"/>
+  <line class="cls-1" x1="98.89" y1="126.62" x2="149.25" y2="126.62"/>
+  <line class="cls-1" x1="98.61" y1="93.38" x2="149.54" y2="93.38"/>
+  <line class="cls-1" x1="93.77" y1="157.9" x2="154.36" y2="157.9"/>
+  <line class="cls-1" x1="93.77" y1="174.85" x2="154.36" y2="174.85"/>
+</svg>

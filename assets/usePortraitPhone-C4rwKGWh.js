@@ -1,0 +1,1 @@
+import{V as e,q as t}from"./index-BshyrAlC.js";var n=t(e(),1),r=`(max-width: 767px) and (orientation: portrait)`,i=e=>{let t=window.matchMedia(r);return t.addEventListener(`change`,e),()=>t.removeEventListener(`change`,e)};function a(){return(0,n.useSyncExternalStore)(i,()=>window.matchMedia(r).matches,()=>!1)}export{a as t};

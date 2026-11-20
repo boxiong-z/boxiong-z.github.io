@@ -1,0 +1,16 @@
+Urban screen photograph
+
+Photographer: Asia Culture Center
+Photo: Screens in City at Night
+Canonical source: https://www.pexels.com/photo/screens-in-city-at-night-18187188/
+License: Pexels License https://www.pexels.com/license/
+Retrieved: 2026-10-14
+Source metadata: photographed October 18, 2021; Sony ILCE-7M4, 16 mm, ISO 100, f/3.5, 1/3 second.
+Original dimensions: 4853 x 3235.
+Local image: 3200 x 2133 JPEG from the Pexels image service.
+Image URL: https://images.pexels.com/photos/18187188/pexels-photo-18187188.jpeg?cs=srgb&w=3200&q=95
+
+The photograph is used as an independent concept mockup. It does not document a real Boiler Room installation or imply endorsement by the venue or photographer.
+The webpage crops the photograph through its viewport and maps the designer's unchanged 640 x 480 motion-poster.gif onto the two photographed display apertures using a four-point projective homography. The metal frame, central seam, architecture, lighting and people remain photographic. No image generation, local model, background replacement, raster recoloring or synthetic city rendering was used.
+
+2026-10-14 local refinement: The scene spans the document viewport. Top and bottom CSS gradients blend the photographic scene into the page. A blurred duplicate of each screen animation produces a subtle light spill from the actual current frame colors; the visible screen artwork itself is unfiltered. A separate MotionPoster component displays the complete original 4:3 composition.

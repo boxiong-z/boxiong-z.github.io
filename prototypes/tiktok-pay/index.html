@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TikTok Pay brand resource library — logo, color, typography and 3D visual assets."
+    />
+    <meta name="theme-color" content="#080808" />
+    <title>TikTok Pay — Brand Assets</title>
+  <link rel="stylesheet" href="./styles.css?v=20261010-04" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-theme="dark">
+      <button class="brand-lockup route-trigger" data-route="home" aria-label="TikTok Pay home">
+        <img src="./assets/brand/tiktok-pay-logo-white.svg" alt="TikTok Pay" />
+      </button>
+      <nav class="home-header-actions" aria-label="Home navigation">
+        <button
+          class="home-our-brand locked-trigger"
+          type="button"
+          data-locked-section="Our Brand"
+          aria-haspopup="dialog"
+          aria-controls="lockedDialog"
+        >Our Brand</button>
+        <button class="view-mode-toggle" id="homeViewToggle" type="button" aria-pressed="false">
+          <span class="mode-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          <span class="mode-label">Bento</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="page page-home is-active" data-page="home" aria-labelledby="home-title">
+        <div class="hero-canvas">
+          <h1 class="sr-only" id="home-title">TikTok Pay visual asset canvas</h1>
+          <button
+            class="canvas-fisheye-toggle"
+            id="canvasFisheyeToggle"
+            type="button"
+            role="switch"
+            aria-checked="true"
+            aria-controls="assetCanvasViewport"
+            aria-label="Fisheye lens effect"
+          >
+            <span class="canvas-fisheye-label">Fisheye</span>
+            <span class="canvas-fisheye-switch" aria-hidden="true"><i></i></span>
+          </button>
+          <div
+            class="asset-canvas-viewport"
+            id="assetCanvasViewport"
+            aria-label="Draggable canvas containing all TikTok Pay visual assets"
+          >
+            <div class="asset-canvas-stage" id="assetCanvasStage">
+              <div class="asset-canvas-world" id="assetCanvasWorld"></div>
+            </div>
+          </div>
+
+          <div class="canvas-focus-caption" id="canvasFocusCaption" hidden aria-live="polite">
+            <p><strong id="canvasFocusName">Asset name</strong><span id="canvasFocusCategory">Visual Asset</span></p>
+          </div>
+        </div>
+
+        <section class="category-portal" id="categoryPortal" aria-labelledby="category-title">
+          <header class="section-heading">
+            <h2 id="category-title" tabindex="-1">Everything in its place.</h2>
+            <p>Explore Logo, Color, Typography and Visual Assets. Motion and Voice are coming next.</p>
+          </header>
+
+          <div class="portal-grid">
+            <button
+              class="portal-card portal-logo portal-logo-family route-trigger"
+              type="button"
+              data-route="logo"
+              data-logo-brand="tiktok-pay"
+              aria-label="Open the TikTok Pay logo page"
+            >
+              <span class="portal-title" id="portal-logo-title">Logo</span>
+              <span class="portal-logo-hero" aria-hidden="true">
+                <span class="portal-logo-note"></span>
+                <span class="portal-logo-family-line">Global Payment Family</span>
+              </span>
+            </button>
+
+            <button class="portal-card portal-color route-trigger" data-route="color">
+              <span class="portal-title">Color</span>
+              <span class="portal-color-cycle" aria-hidden="true">
+                <span style="--cycle-index:0">Glint <b>#2DCCD3</b></span>
+                <span style="--cycle-index:1">Blaze <b>#F1204A</b></span>
+                <span style="--cycle-index:2">Thrive <b>#033624</b></span>
+                <span style="--cycle-index:3">Shimmer <b>#BAF6F0</b></span>
+                <span style="--cycle-index:4">Ember <b>#4A0505</b></span>
+                <span style="--cycle-index:5">Dawn <b>#EDBBE8</b></span>
+                <span style="--cycle-index:6">Glow <b>#FBEB35</b></span>
+                <span style="--cycle-index:7">Muse <b>#EDD4B2</b></span>
+              </span>
+              <span class="color-spectrum color-spectrum-home" aria-hidden="true">
+                <span class="color-band color-band-glint"><b>Glint</b></span>
+                <span class="color-band color-band-blaze"><b>Blaze</b></span>
+                <span class="color-band color-band-thrive"><b>Thrive</b></span>
+                <span class="color-band color-band-shimmer"><b>Shimmer</b></span>
+                <span class="color-band color-band-ember"><b>Ember</b></span>
+                <span class="color-band color-band-dawn"><b>Dawn</b></span>
+                <span class="color-band color-band-glow"><b>Glow</b></span>
+                <span class="color-band color-band-muse"><b>Muse</b></span>
+              </span>
+            </button>
+
+            <button class="portal-card portal-type route-trigger" data-route="typography">
+              <span class="portal-title">Typography</span>
+              <span class="type-poster" aria-hidden="true">
+                <span class="type-poster-glyph">Aa</span>
+                <span class="type-poster-meta">TikTok Sans · 900</span>
+              </span>
+            </button>
+
+            <button class="portal-card portal-assets route-trigger" data-route="assets">
+              <span class="portal-title">Visual Assets</span>
+              <span class="portal-asset-stack" id="portalAssetStack" aria-hidden="true"></span>
+            </button>
+
+            <button class="portal-card portal-locked locked-trigger" data-locked-section="Motion">
+              <span class="portal-title">Motion</span>
+              <span class="motion-graphic" aria-hidden="true">
+                <i class="motion-ring ring-one"></i><i class="motion-ring ring-two"></i>
+                <i class="motion-shape shape-one"></i><i class="motion-shape shape-two"></i><i class="motion-shape shape-three"></i>
+              </span>
+              <span class="portal-link">Locked · In development</span>
+            </button>
+
+            <button class="portal-card portal-locked portal-voice locked-trigger" data-locked-section="Voice">
+              <span class="portal-title">Voice</span>
+              <span class="voice-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+              <span class="portal-link">Locked · In development</span>
+            </button>
+          </div>
+        </section>
+      </section>
+
+      <section class="page guide-page" data-page="logo" aria-labelledby="logo-title">
+        <div class="guide-shell">
+          <aside class="guide-rail logo-guide-rail" aria-label="Brand asset chapters">
+            <div class="logo-guide-topline">
+              <button class="rail-item route-trigger is-current" data-route="logo">Logo <span aria-hidden="true">⌄</span></button>
+              <div class="logo-guide-routes">
+                <button class="rail-item route-trigger" data-route="color">Color</button>
+                <button class="rail-item route-trigger" data-route="typography">Typography</button>
+                <button class="rail-item route-trigger" data-route="assets">Visual Assets</button>
+                <button class="rail-item locked-trigger" data-locked-section="Motion">Motion <svg class="rail-lock" viewBox="0 0 16 18" aria-hidden="true" focusable="false"><path d="M4.25 7V5.5a3.75 3.75 0 0 1 7.5 0V7"></path><rect x="2.25" y="7" width="11.5" height="8.75" rx="2"></rect></svg></button>
+                <button class="rail-item locked-trigger" data-locked-section="Voice">Voice <svg class="rail-lock" viewBox="0 0 16 18" aria-hidden="true" focusable="false"><path d="M4.25 7V5.5a3.75 3.75 0 0 1 7.5 0V7"></path><rect x="2.25" y="7" width="11.5" height="8.75" rx="2"></rect></svg></button>
+              </div>
+            </div>
+            <nav class="logo-local-nav" aria-label="Logo brands">
+              <button class="logo-local-link route-trigger is-active" type="button" data-route="logo" data-logo-brand="tiktok-pay" aria-current="page">TikTok Pay</button>
+              <button class="logo-local-link route-trigger" type="button" data-route="logo" data-logo-brand="tiktok-paylater">TikTok PayLater</button>
+              <button class="logo-local-link route-trigger" type="button" data-route="logo" data-logo-brand="tiktok-creator-card">TikTok Creator Card</button>
+              <button class="logo-local-link route-trigger" type="button" data-route="logo" data-logo-brand="tiktok-business-financing">TikTok Business Financing</button>
+              <button class="logo-local-link route-trigger" type="button" data-route="logo" data-logo-brand="trustfinancing">TrustFinancing</button>
+              <button class="logo-local-link route-trigger" type="button" data-route="logo" data-logo-brand="early-settlement">Early Settlement</button>
+            </nav>
+          </aside>
+
+          <article class="guide-content">
+            <header class="chapter-intro">
+              <div><h1 id="logo-title">Logo</h1></div>
+              <p data-logo-intro>
+                As our most recognizable brand element, the TikTok Pay logo pairs precise, machine-like
+                construction with the finesse of a human touch. Its formal qualities keep our technology focused on people.
+              </p>
+            </header>
+
+            <section class="content-section logo-overview-section" aria-labelledby="logo-overview-title">
+              <h2 class="sr-only" id="logo-overview-title">On this page</h2>
+              <div class="logo-route-dock" role="group" aria-label="Logo page navigation">
+                <button class="logo-dock-back bento-return" type="button" aria-label="Back to Bento">
+                  <span aria-hidden="true">←</span><strong>Bento</strong>
+                </button>
+                <div class="logo-jump-dock">
+                  <button class="logo-jump-toggle" type="button" aria-expanded="false" aria-controls="logo-overview-nav">
+                    <span>On this page</span>
+                    <strong class="logo-jump-current">Primary lockup</strong>
+                    <b aria-hidden="true">+</b>
+                  </button>
+                  <nav class="logo-overview-nav" id="logo-overview-nav" aria-label="Sections on the Logo page">
+                    <button class="logo-overview-link logo-scroll-trigger" type="button" data-scroll-target="logo-primary-lockup">
+                      <strong>Primary lockup</strong><b aria-hidden="true">↘</b>
+                    </button>
+                    <button class="logo-overview-link logo-scroll-trigger" type="button" data-scroll-target="logo-clear-space" data-logo-clearspace-nav>
+                      <strong>Clear space</strong><b aria-hidden="true">↘</b>
+                    </button>
+                    <button class="logo-overview-link logo-scroll-trigger" type="button" data-scroll-target="logo-resources">
+                      <strong>Resources</strong><b aria-hidden="true">↘</b>
+                    </button>
+                  </nav>
+                </div>
+              </div>
+            </section>
+
+            <section class="content-section logo-scroll-target" id="logo-primary-lockup" tabindex="-1" aria-labelledby="logo-primary-title">
+              <div class="section-label"><h2 id="logo-primary-title">Primary lockup</h2></div>
+              <div class="logo-stage" data-logo-stage data-logo-stage-theme="dark">
+                <img src="./assets/brand/tiktok-pay-logo-white.svg" alt="TikTok Pay primary white logo" data-logo-primary-image />
+                <div class="stage-actions">
+                  <span data-logo-stage-meta>White · SVG</span>
+                  <a class="mini-button" href="./assets/brand/tiktok-pay-logo-white.svg" download data-logo-stage-download>Download ↘</a>
+                </div>
+              </div>
+              <p class="support-copy" data-logo-support-copy>
+                Use the horizontal lockup wherever space allows. This supplied white master is ready for dark
+                surfaces; additional production variants can be added to this module without changing the layout.
+              </p>
+            </section>
+
+            <section class="content-section logo-scroll-target" id="logo-clear-space" tabindex="-1" aria-labelledby="logo-clear-space-title" data-logo-clearspace-section>
+              <div class="section-label"><h2 id="logo-clear-space-title">Clear space</h2></div>
+              <div class="logo-clearspace-switcher">
+                <div class="logo-clearspace-tabs" role="tablist" aria-label="Clear-space logo version">
+                  <button class="logo-clearspace-tab" id="clearspace-primary-tab" type="button" role="tab" data-clearspace-target="primary" aria-selected="true" aria-controls="clearspace-primary-panel">Primary Logo</button>
+                  <button class="logo-clearspace-tab" id="clearspace-simplified-tab" type="button" role="tab" data-clearspace-target="simplified" aria-selected="false" aria-controls="clearspace-simplified-panel" tabindex="-1">Simplified Logo</button>
+                </div>
+                <div class="logo-clearspace-panels">
+                  <article class="logo-clearspace-panel is-active" id="clearspace-primary-panel" role="tabpanel" aria-labelledby="clearspace-primary-tab">
+                    <div class="logo-clearspace-rule">
+                      <span class="logo-clearspace-kicker">Primary lockup</span>
+                      <p>Measure from the <strong>TikTok Primary Note</strong>. Keep one full note of clear space around every edge; do not substitute the simplified note.</p>
+                    </div>
+                    <figure class="logo-clearspace-figure">
+                      <img src="./assets/brand/clear-space/primary-clear-space.svg" alt="TikTok Pay Primary Logo clear-space diagram measured with the TikTok Primary Note" />
+                      <figcaption class="logo-clearspace-caption">The “X” represents the Primary symbol at 50%.</figcaption>
+                    </figure>
+                  </article>
+                  <article class="logo-clearspace-panel" id="clearspace-simplified-panel" role="tabpanel" aria-labelledby="clearspace-simplified-tab" hidden>
+                    <div class="logo-clearspace-rule">
+                      <span class="logo-clearspace-kicker">Simplified lockup</span>
+                      <p>Measure from the <strong>simplified TikTok note</strong>. Keep one full icon of clear space around every edge of the compact lockup.</p>
+                    </div>
+                    <figure class="logo-clearspace-figure">
+                      <img src="./assets/brand/clear-space/simplified-clear-space.svg" alt="TikTok Pay Primary Simplified Logo clear-space diagram measured with the TikTok simplified icon" />
+                      <figcaption class="logo-clearspace-caption">The “X” represents the icon at 50%.</figcaption>
+                    </figure>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+            <section class="content-section logo-resources-section logo-scroll-target" id="logo-resources" tabindex="-1" aria-labelledby="logo-resources-title">
+              <div class="section-label"><h2 id="logo-resources-title">Resources</h2></div>
+              <div class="logo-resource-grid">
+                <a class="logo-resource-card" href="./assets/brand/logo-system/tiktok-pay.svg" download data-logo-resource-download>
+                  <div class="logo-resource-preview"><img src="./assets/brand/logo-system/tiktok-pay.svg" alt="" data-logo-resource-image /></div>
+                  <div class="logo-resource-copy">
+                    <h3 data-logo-resource-title>TikTok Pay logo</h3>
+                    <p data-logo-resource-copy>Download the TikTok Pay master SVG.</p>
+                    <b aria-hidden="true">↓</b>
+                  </div>
+                </a>
+              </div>
+            </section>
+          </article>
+        </div>
+      </section>
+
+      <section class="page guide-page" data-page="color" aria-labelledby="color-title">
+        <div class="guide-shell">
+          <aside class="guide-rail" aria-label="Brand asset chapters">
+            <button class="rail-item route-trigger" data-route="logo">Logo</button>
+            <button class="rail-item route-trigger is-current" data-route="color">Color</button>
+            <button class="rail-item route-trigger" data-route="typography">Typography</button>
+            <button class="rail-item route-trigger" data-route="assets">Visual Assets</button>
+            <button class="rail-item locked-trigger" data-locked-section="Motion">Motion <svg class="rail-lock" viewBox="0 0 16 18" aria-hidden="true" focusable="false"><path d="M4.25 7V5.5a3.75 3.75 0 0 1 7.5 0V7"></path><rect x="2.25" y="7" width="11.5" height="8.75" rx="2"></rect></svg></button>
+            <button class="rail-item locked-trigger" data-locked-section="Voice">Voice <svg class="rail-lock" viewBox="0 0 16 18" aria-hidden="true" focusable="false"><path d="M4.25 7V5.5a3.75 3.75 0 0 1 7.5 0V7"></path><rect x="2.25" y="7" width="11.5" height="8.75" rx="2"></rect></svg></button>
+          </aside>
+
+          <article class="guide-content">
+            <header class="chapter-intro">
+              <div><h1 id="color-title">Color</h1></div>
+              <p>
+                Glint and Blaze are the pulse of TikTok Pay. A supporting spectrum adds warmth, clarity and range
+                without losing the energy of the core pair.
+              </p>
+            </header>
+
+            <div class="detail-route-dock" role="group" aria-label="Color page navigation">
+              <button class="detail-dock-back bento-return" type="button" aria-label="Back to Bento">
+                <span aria-hidden="true">←</span><strong>Bento</strong>
+              </button>
+              <div class="detail-jump-dock">
+                <button class="detail-jump-toggle" type="button" aria-expanded="false" aria-controls="color-section-nav">
+                  <span>Color</span>
+                  <strong class="detail-jump-current">Palette spectrum</strong>
+                  <b aria-hidden="true">+</b>
+                </button>
+                <nav class="detail-section-nav" id="color-section-nav" aria-label="Sections on the Color page">
+                  <button class="detail-section-link" type="button" data-detail-scroll-target="color-spectrum">Palette spectrum</button>
+                  <button class="detail-section-link" type="button" data-detail-scroll-target="color-pairing">Pairing rhythm</button>
+                </nav>
+              </div>
+            </div>
+
+            <section class="color-spectrum-section" id="color-spectrum" data-dock-title="Palette spectrum" aria-labelledby="color-spectrum-title">
+              <h2 class="sr-only" id="color-spectrum-title">TikTok Pay palette spectrum</h2>
+              <div class="color-spectrum-stage" role="group" aria-label="TikTok Pay brand colors. Select a band to copy its HEX value.">
+                <button class="color-story-band color-band-glint" type="button" data-copy-color data-hex="#2DCCD3"><span>Glint</span><b>#2DCCD3</b></button>
+                <button class="color-story-band color-band-blaze" type="button" data-copy-color data-hex="#F1204A"><span>Blaze</span><b>#F1204A</b></button>
+                <button class="color-story-band color-band-thrive" type="button" data-copy-color data-hex="#033624"><span>Thrive</span><b>#033624</b></button>
+                <button class="color-story-band color-band-shimmer" type="button" data-copy-color data-hex="#BAF6F0"><span>Shimmer</span><b>#BAF6F0</b></button>
+                <button class="color-story-band color-band-ember" type="button" data-copy-color data-hex="#4A0505"><span>Ember</span><b>#4A0505</b></button>
+                <button class="color-story-band color-band-dawn" type="button" data-copy-color data-hex="#EDBBE8"><span>Dawn</span><b>#EDBBE8</b></button>
+                <button class="color-story-band color-band-glow" type="button" data-copy-color data-hex="#FBEB35"><span>Glow</span><b>#FBEB35</b></button>
+                <button class="color-story-band color-band-muse" type="button" data-copy-color data-hex="#EDD4B2"><span>Muse</span><b>#EDD4B2</b></button>
+                <button class="color-story-band color-band-white" type="button" data-copy-color data-hex="#FFFFFF"><span>White</span><b>#FFFFFF</b></button>
+                <button class="color-story-band color-band-black" type="button" data-copy-color data-hex="#000000"><span>Black</span><b>#000000</b></button>
+              </div>
+            </section>
+
+            <section class="content-section" id="color-pairing" tabindex="-1" data-dock-title="Pairing rhythm">
+              <div class="section-label"><h2>Pairing rhythm</h2></div>
+              <div class="pairing-grid">
+                <div class="pairing-card glint-pair"><span>Glint × Black</span><strong>Fast.<br />Clear.<br />Alive.</strong></div>
+                <div class="pairing-card blaze-pair"><span>Blaze × White</span><strong>Pay<br />your<br />way.</strong></div>
+                <div class="pairing-card glow-pair"><span>Glow × Ember</span><strong>Go<br />bold.</strong></div>
+              </div>
+            </section>
+          </article>
+        </div>
+      </section>
+
+      <section class="page guide-page" data-page="typography" aria-labelledby="type-title">
+        <div class="guide-shell">
+          <aside class="guide-rail" aria-label="Brand asset chapters">
+            <button class="rail-item route-trigger" data-route="logo">Logo</button>
+            <button class="rail-item route-trigger" data-route="color">Color</button>
+            <button class="rail-item route-trigger is-current" data-route="typography">Typography</button>
+            <button class="rail-item route-trigger" data-route="assets">Visual Assets</button>
+            <button class="rail-item locked-trigger" data-locked-section="Motion">Motion <svg class="rail-lock" viewBox="0 0 16 18" aria-hidden="true" focusable="false"><path d="M4.25 7V5.5a3.75 3.75 0 0 1 7.5 0V7"></path><rect x="2.25" y="7" width="11.5" height="8.75" rx="2"></rect></svg></button>
+            <button class="rail-item locked-trigger" data-locked-section="Voice">Voice <svg class="rail-lock" viewBox="0 0 16 18" aria-hidden="true" focusable="false"><path d="M4.25 7V5.5a3.75 3.75 0 0 1 7.5 0V7"></path><rect x="2.25" y="7" width="11.5" height="8.75" rx="2"></rect></svg></button>
+          </aside>
+
+          <article class="guide-content">
+            <header class="chapter-intro typography-intro">
+              <div><h1 id="type-title">Typography</h1></div>
+              <p>
+                TikTok Sans includes seven weights in upright and italic. Inspect individual glyphs, compare the
+                family and test scale before applying it.
+              </p>
+            </header>
+
+            <div class="detail-route-dock" role="group" aria-label="Typography page navigation">
+              <button class="detail-dock-back bento-return" type="button" aria-label="Back to Bento">
+                <span aria-hidden="true">←</span><strong>Bento</strong>
+              </button>
+              <div class="detail-jump-dock">
+                <button class="detail-jump-toggle" type="button" aria-expanded="false" aria-controls="typography-section-nav">
+                  <span>Typography</span>
+                  <strong class="detail-jump-current">Type field</strong>
+                  <b aria-hidden="true">+</b>
+                </button>
+                <nav class="detail-section-nav" id="typography-section-nav" aria-label="Sections on the Typography page">
+                  <button class="detail-section-link" type="button" data-detail-scroll-target="type-inspector">Type field</button>
+                  <button class="detail-section-link" type="button" data-detail-scroll-target="type-standards">Type standards</button>
+                  <button class="detail-section-link" type="button" data-detail-scroll-target="type-context">Scale in context</button>
+                </nav>
+              </div>
+            </div>
+
+            <section class="content-section type-field-section" id="type-inspector" tabindex="-1" data-dock-title="Type field">
+              <h2 class="sr-only">Explore TikTok Sans</h2>
+              <div class="type-field" data-type-field data-posture="normal">
+                <div class="type-field-stage" data-type-field-stage role="group" aria-label="Interactive TikTok Sans specimen" aria-describedby="type-field-status">
+                  <div class="type-field-aura" aria-hidden="true"></div>
+                  <div class="type-field-stack">
+                    <span class="type-field-specimen" data-type-field-specimen contenteditable="plaintext-only" role="textbox" aria-label="Editable type specimen" aria-multiline="true" spellcheck="false">Pay the&#10;TikTok Way!</span>
+                  </div>
+
+                  <div class="type-field-lens" data-type-lens aria-hidden="true">
+                    <div class="type-field-lens-world" data-type-lens-world>
+                      <span class="type-field-lens-glyph" data-type-lens-glyph>a</span>
+                      <i class="type-field-guide type-field-guide-cap"><b>CAP</b></i>
+                      <i class="type-field-guide type-field-guide-x"><b>X-HEIGHT</b></i>
+                      <i class="type-field-guide type-field-guide-base"><b>BASELINE</b></i>
+                    </div>
+                  </div>
+
+                  <output class="type-field-status" id="type-field-status" data-type-field-status>Semibold 600 · 168px · Upright</output>
+                </div>
+
+                <div class="type-field-controls">
+                  <footer class="type-field-spectrum" aria-label="Weight presets">
+                    <span>Weight</span>
+                    <div role="radiogroup" aria-label="TikTok Sans weight">
+                      <button type="button" role="radio" aria-checked="false" tabindex="-1" data-type-field-weight="300"><em aria-hidden="true" data-type-field-weight-sample>ag</em><b>Light</b><span>300</span></button>
+                      <button type="button" role="radio" aria-checked="false" tabindex="-1" data-type-field-weight="400"><em aria-hidden="true" data-type-field-weight-sample>ag</em><b>Regular</b><span>400</span></button>
+                      <button type="button" role="radio" aria-checked="false" tabindex="-1" data-type-field-weight="500"><em aria-hidden="true" data-type-field-weight-sample>ag</em><b>Medium</b><span>500</span></button>
+                      <button type="button" role="radio" aria-checked="true" tabindex="0" data-type-field-weight="600"><em aria-hidden="true" data-type-field-weight-sample>ag</em><b>Semibold</b><span>600</span></button>
+                      <button type="button" role="radio" aria-checked="false" tabindex="-1" data-type-field-weight="700"><em aria-hidden="true" data-type-field-weight-sample>ag</em><b>Bold</b><span>700</span></button>
+                      <button type="button" role="radio" aria-checked="false" tabindex="-1" data-type-field-weight="800"><em aria-hidden="true" data-type-field-weight-sample>ag</em><b>Extra bold</b><span>800</span></button>
+                      <button type="button" role="radio" aria-checked="false" tabindex="-1" data-type-field-weight="900"><em aria-hidden="true" data-type-field-weight-sample>ag</em><b>Black</b><span>900</span></button>
+                    </div>
+                  </footer>
+
+                  <div class="type-field-tuning" aria-label="Type settings">
+                    <label class="type-field-control type-field-control-size">
+                      <span>Size</span>
+                      <span class="type-field-control-track">
+                        <input type="range" min="72" max="220" step="4" value="168" aria-label="Font size" data-type-field-size />
+                        <output data-type-field-size-output>168</output>
+                      </span>
+                    </label>
+                    <label class="type-field-control">
+                      <span>Tracking</span>
+                      <span class="type-field-control-track">
+                        <input type="range" min="-8" max="4" step="1" value="-4" aria-label="Letter spacing" data-type-field-tracking />
+                        <output data-type-field-tracking-output>−.04</output>
+                      </span>
+                    </label>
+                    <label class="type-field-control">
+                      <span>Leading</span>
+                      <span class="type-field-control-track">
+                        <input type="range" min="80" max="150" step="5" value="100" aria-label="Line height" data-type-field-leading />
+                        <output data-type-field-leading-output>1.0</output>
+                      </span>
+                    </label>
+                    <button class="type-field-italic" type="button" data-type-posture aria-label="Toggle italic" aria-pressed="false"><i aria-hidden="true">I</i><span>Italic</span></button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="content-section type-standard-section" id="type-standards" tabindex="-1" data-dock-title="Type standards">
+              <div class="section-label">
+                <h2>Built for clarity at every scale.</h2>
+                <p>Use rhythm, spacing and measure to make every message feel deliberate.</p>
+              </div>
+              <div class="type-standard-board">
+                <article class="type-standard-row type-standard-row-leading">
+                  <header><h3>Line height</h3><p>Body copy uses 1.4× leading so ideas stay connected without feeling crowded.</p></header>
+                  <div class="type-leading-demo" aria-label="Line height example at 1.4 times the text size">
+                    <span class="type-leading-marker">1.4×</span>
+                    <i aria-hidden="true"></i><p>Clear information<br />builds confidence<br />at every step.</p><i aria-hidden="true"></i>
+                  </div>
+                </article>
+
+                <article class="type-standard-row type-standard-row-tracking">
+                  <header><h3>Letter spacing</h3><p>Keep display type tight; give body copy only the small amount of space it needs.</p></header>
+                  <div class="type-tracking-demo" aria-label="Letter spacing comparisons for display and body text">
+                    <section class="type-tracking-use type-tracking-use-display" aria-labelledby="type-tracking-display-title">
+                      <h4 id="type-tracking-display-title">Display</h4>
+                      <div class="type-tracking-pair">
+                        <div class="type-tracking-sample type-tracking-sample-before">
+                          <span>Before · too open</span><strong>Move money.</strong>
+                        </div>
+                        <div class="type-tracking-sample type-tracking-sample-after">
+                          <span>Use · −0.04em</span><strong>Move money.</strong>
+                        </div>
+                      </div>
+                    </section>
+                    <section class="type-tracking-use type-tracking-use-body" aria-labelledby="type-tracking-body-title">
+                      <h4 id="type-tracking-body-title">Body</h4>
+                      <div class="type-tracking-pair">
+                        <div class="type-tracking-sample type-tracking-sample-before">
+                          <span>Before · too tight</span><p>Your payment is protected at every step.</p>
+                        </div>
+                        <div class="type-tracking-sample type-tracking-sample-after">
+                          <span>Use · −0.01em</span><p>Your payment is protected at every step.</p>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </article>
+
+                <article class="type-standard-row type-standard-row-measure">
+                  <header><h3>Measure and spacing</h3><p>A 45–68 character measure and a clear inner margin keep explanations easy to scan.</p></header>
+                  <div class="type-measure-demo">
+                    <span class="type-measure-padding type-measure-padding-top">24px</span>
+                    <span class="type-measure-padding type-measure-padding-side">24px</span>
+                    <p>Payments should feel simple, predictable and human from the first tap to the final confirmation.</p>
+                    <b>58 characters</b>
+                  </div>
+                </article>
+
+                <article class="type-standard-row type-standard-row-voice">
+                  <header><h3>Size and weight</h3><p>Use contrast between voices, not extra decoration, to build hierarchy.</p></header>
+                  <div class="type-voice-demo" aria-label="TikTok Sans weight and posture examples">
+                    <span style="--voice-weight:300"><b>Light</b><small>300 · Upright</small></span>
+                    <span style="--voice-weight:400"><b>Regular</b><small>400 · Upright</small></span>
+                    <span style="--voice-weight:600"><b>Semibold</b><small>600 · Upright</small></span>
+                    <strong><b>Black</b><small>900 · Upright</small></strong>
+                    <em><b>Bold italic</b><small>700 · Italic</small></em>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="content-section type-context-section" id="type-context" tabindex="-1" data-dock-title="Scale in context">
+              <div class="section-label">
+                <h2>Scale in context</h2>
+                <p>Test role-specific sizes and weights inside the layouts where they need to work.</p>
+              </div>
+              <div class="type-context-lab" data-type-context>
+                <article class="type-context-row type-context-row-display" data-type-context-row style="--preview-size:96px; --preview-weight:900; --range-progress:42.857%; --range-thumb-position:calc(42.857% + 1.286px)">
+                  <header class="type-context-meta"><h3>Display</h3><p>Campaign statement</p></header>
+                  <div class="type-context-preview type-context-preview-display">
+                    <p data-type-context-preview data-default-copy="Move money." contenteditable="true" role="textbox" aria-label="Editable display sample" spellcheck="false">Move money.</p>
+                  </div>
+                  <div class="type-context-controls">
+                    <label class="type-context-size"><span>Size</span><span class="type-range-control"><input data-type-size type="range" min="72" max="128" step="1" value="96" /><output class="type-range-output" data-type-size-output>96px</output></span></label>
+                    <fieldset class="type-weight-picker"><legend>Weight</legend>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="display-weight" value="700" /><span>Bold<br /><b>700</b></span></label>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="display-weight" value="800" /><span>Extra bold<br /><b>800</b></span></label>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="display-weight" value="900" checked /><span>Black<br /><b>900</b></span></label>
+                    </fieldset>
+                  </div>
+                </article>
+
+                <article class="type-context-row type-context-row-headline" data-type-context-row style="--preview-size:56px; --preview-weight:700; --range-progress:50%; --range-thumb-position:50%">
+                  <header class="type-context-meta"><h3>Headline</h3><p>Product story</p></header>
+                  <div class="type-context-preview type-context-preview-headline">
+                    <p data-type-context-preview data-default-copy="Make the moment count." contenteditable="true" role="textbox" aria-label="Editable headline sample" spellcheck="false">Make the moment count.</p>
+                  </div>
+                  <div class="type-context-controls">
+                    <label class="type-context-size"><span>Size</span><span class="type-range-control"><input data-type-size type="range" min="40" max="72" step="1" value="56" /><output class="type-range-output" data-type-size-output>56px</output></span></label>
+                    <fieldset class="type-weight-picker"><legend>Weight</legend>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="headline-weight" value="500" /><span>Medium<br /><b>500</b></span></label>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="headline-weight" value="700" checked /><span>Bold<br /><b>700</b></span></label>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="headline-weight" value="800" /><span>Extra bold<br /><b>800</b></span></label>
+                    </fieldset>
+                  </div>
+                </article>
+
+                <article class="type-context-row type-context-row-body" data-type-context-row style="--preview-size:20px; --preview-weight:400; --range-progress:50%; --range-thumb-position:50%">
+                  <header class="type-context-meta"><h3>Body</h3><p>Helpful explanation</p></header>
+                  <div class="type-context-preview type-context-preview-body">
+                    <span>Payment update</span>
+                    <p data-type-context-preview data-default-copy="Your payment is protected from the moment it leaves your wallet until it reaches its destination." contenteditable="true" role="textbox" aria-label="Editable body sample" spellcheck="false">Your payment is protected from the moment it leaves your wallet until it reaches its destination.</p>
+                  </div>
+                  <div class="type-context-controls">
+                    <label class="type-context-size"><span>Size</span><span class="type-range-control"><input data-type-size type="range" min="16" max="24" step="1" value="20" /><output class="type-range-output" data-type-size-output>20px</output></span></label>
+                    <fieldset class="type-weight-picker"><legend>Weight</legend>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="body-weight" value="300" /><span>Light<br /><b>300</b></span></label>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="body-weight" value="400" checked /><span>Regular<br /><b>400</b></span></label>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="body-weight" value="600" /><span>Semibold<br /><b>600</b></span></label>
+                    </fieldset>
+                  </div>
+                </article>
+
+                <article class="type-context-row type-context-row-label" data-type-context-row style="--preview-size:12px; --preview-weight:600; --range-progress:20%; --range-thumb-position:calc(20% + 5.4px)">
+                  <header class="type-context-meta"><h3>Label</h3><p>Checkout action and status</p></header>
+                  <div class="type-context-preview type-context-preview-label">
+                    <div class="type-checkout-context">
+                      <div class="type-checkout-heading"><span>TikTok Pay</span><b>Secure checkout</b></div>
+                      <div class="type-checkout-amount"><span>Amount due</span><strong>$48.00</strong></div>
+                      <div class="type-checkout-method"><span>Pay with</span><strong>Wallet balance</strong></div>
+                      <span class="type-checkout-action" data-type-context-preview data-default-copy="Confirm payment" contenteditable="true" role="textbox" aria-label="Editable checkout action label" spellcheck="false">Confirm payment</span>
+                    </div>
+                  </div>
+                  <div class="type-context-controls">
+                    <label class="type-context-size"><span>Size</span><span class="type-range-control"><input data-type-size type="range" min="11" max="16" step="1" value="12" /><output class="type-range-output" data-type-size-output>12px</output></span></label>
+                    <fieldset class="type-weight-picker"><legend>Weight</legend>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="label-weight" value="500" /><span>Medium<br /><b>500</b></span></label>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="label-weight" value="600" checked /><span>Semibold<br /><b>600</b></span></label>
+                      <label class="type-weight-choice"><input data-type-weight type="radio" name="label-weight" value="800" /><span>Extra bold<br /><b>800</b></span></label>
+                    </fieldset>
+                  </div>
+                </article>
+              </div>
+            </section>
+          </article>
+        </div>
+      </section>
+
+      <section class="page guide-page assets-page" data-page="assets" aria-labelledby="assets-title">
+        <div class="guide-shell">
+          <aside class="guide-rail" aria-label="Brand asset chapters">
+            <button class="rail-item route-trigger" data-route="logo">Logo</button>
+            <button class="rail-item route-trigger" data-route="color">Color</button>
+            <button class="rail-item route-trigger" data-route="typography">Typography</button>
+            <button class="rail-item route-trigger is-current" data-route="assets">Visual Assets</button>
+            <button class="rail-item locked-trigger" data-locked-section="Motion">Motion <svg class="rail-lock" viewBox="0 0 16 18" aria-hidden="true" focusable="false"><path d="M4.25 7V5.5a3.75 3.75 0 0 1 7.5 0V7"></path><rect x="2.25" y="7" width="11.5" height="8.75" rx="2"></rect></svg></button>
+            <button class="rail-item locked-trigger" data-locked-section="Voice">Voice <svg class="rail-lock" viewBox="0 0 16 18" aria-hidden="true" focusable="false"><path d="M4.25 7V5.5a3.75 3.75 0 0 1 7.5 0V7"></path><rect x="2.25" y="7" width="11.5" height="8.75" rx="2"></rect></svg></button>
+          </aside>
+
+          <article class="guide-content assets-content">
+            <header class="chapter-intro assets-intro">
+              <div><h1 id="assets-title">Visual Assets</h1></div>
+              <p>
+                A growing family of dimensional objects for payments, security, rewards and everyday commerce.
+                Transparent PNGs, ready to compose.
+              </p>
+            </header>
+
+            <div class="detail-route-dock detail-route-dock-filters asset-toolbar" role="group" aria-label="Visual Assets page navigation and filters">
+              <button class="detail-dock-back bento-return" type="button" aria-label="Back to Bento">
+                <span aria-hidden="true">←</span><strong>Bento</strong>
+              </button>
+              <div class="detail-dock-filters">
+                <span class="detail-dock-filter-label" id="asset-filter-label">Filter</span>
+                <div class="filter-row" id="assetFilters" role="group" aria-labelledby="asset-filter-label"></div>
+              </div>
+              <p class="sr-only" id="resultCount" aria-live="polite"></p>
+            </div>
+
+            <div class="asset-grid" id="assetGrid"></div>
+            <div class="empty-state" id="emptyState" hidden>
+              <span>Nothing here yet.</span>
+              <p>Choose another category or reset the filter.</p>
+              <button class="mini-button" id="resetFilters">Reset filters</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>TikTok Pay</p>
+    </footer>
+
+    <dialog class="asset-dialog" id="assetDialog" aria-labelledby="assetDialogTitle">
+      <button class="dialog-close" data-close-dialog aria-label="Close preview">×</button>
+      <div class="dialog-preview" id="dialogPreview">
+        <button class="dialog-nav dialog-nav-prev" id="previousAsset" aria-label="Previous asset">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4.5 7 10l5.5 5.5"></path></svg>
+        </button>
+        <button class="dialog-nav dialog-nav-next" id="nextAsset" aria-label="Next asset">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m7.5 4.5 5.5 5.5-5.5 5.5"></path></svg>
+        </button>
+        <img id="dialogImage" alt="" />
+      </div>
+      <div class="dialog-details">
+        <p class="eyebrow" id="dialogCategory">Visual Asset</p>
+        <h2 id="assetDialogTitle">Asset name</h2>
+        <dl>
+          <div><dt>File</dt><dd id="dialogFile">—</dd></div>
+          <div><dt>Size</dt><dd id="dialogDimensions">—</dd></div>
+          <div><dt>Format</dt><dd>PNG · Transparent</dd></div>
+        </dl>
+        <div class="dialog-actions">
+          <a class="button button-primary" id="dialogDownload" href="#" download>Download PNG <span>↘</span></a>
+        </div>
+        <span class="dialog-position" id="dialogPosition">1 / 66</span>
+      </div>
+    </dialog>
+
+    <dialog class="locked-dialog" id="lockedDialog" aria-labelledby="lockedTitle" aria-describedby="lockedDescription">
+      <button class="dialog-close" data-close-locked aria-label="Close">×</button>
+      <div class="locked-content">
+        <svg class="dialog-lock" viewBox="0 0 16 18" aria-hidden="true" focusable="false">
+          <path d="M4.25 7V5.5a3.75 3.75 0 0 1 7.5 0V7"></path>
+          <rect x="2.25" y="7" width="11.5" height="8.75" rx="2"></rect>
+        </svg>
+        <h2 id="lockedTitle">Motion is in development.</h2>
+        <p id="lockedDescription">This section will open once the foundation and production library are ready.</p>
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">Copied</div>
+
+    <script src="./assets-data.js?v=20260812-27"></script>
+    <script src="./vendor/gsap/gsap.min.js"></script>
+    <script src="./vendor/gsap/ScrollTrigger.min.js"></script>
+  <script src="./app.js?v=20261010-01"></script>
+  </body>
+</html>

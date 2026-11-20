@@ -1,0 +1,1 @@
+var e=1.13;function t(t,n,r,i){let a=r-i.entryCentre*n,o=r*.4-i.frontCentre*n,s=-i.exitBottom*n;if(t>=a)return 0;if(t<=s)return 1;let c=t>=o,l=c?a-o:o-s,u=((c?a:o)-t)/l,d=u*u,f=d*u,p=.14*l/r;return((c?-e*(2*f-3*d+1)+p*(f-d):e*(-2*f+3*d)+p*(f-2*d+u))/e+1)/2}export{e as n,t};

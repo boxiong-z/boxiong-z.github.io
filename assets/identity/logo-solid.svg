@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Business_Card_01:_EU" data-name="Business Card 01: EU" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 252.28 144.57">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-width: .75px;
+      }
+
+      .cls-1, .cls-4 {
+        fill: #d71718;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-4" points="153.57 44.86 153.57 99.71 126.14 99.71 98.72 99.71 98.72 72.28 98.72 44.86 126.14 44.86 153.57 44.86"/>
+    <polygon class="cls-3" points="153.57 99.71 126.14 99.71 98.72 99.71 98.72 72.28 98.72 44.86 126.14 44.86 153.57 44.86 153.57 99.71"/>
+  </g>
+  <polygon class="cls-1" points="126.14 72.28 126.14 44.86 126.14 99.71 126.14 72.28"/>
+  <g>
+    <g>
+      <polygon class="cls-4" points="153.57 44.86 153.57 99.71 126.14 72.28 153.57 44.86"/>
+      <polygon class="cls-4" points="126.14 44.86 126.14 72.28 98.72 72.28 126.14 44.86"/>
+    </g>
+    <g>
+      <polygon class="cls-3" points="126.14 72.28 98.72 72.28 126.14 44.86 126.14 72.28"/>
+      <polygon class="cls-3" points="126.14 72.28 153.57 99.71 153.57 44.86 126.14 72.28"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <polygon class="cls-4" points="126.14 72.28 126.14 99.71 112.43 86 126.14 72.28"/>
+      <polygon class="cls-4" points="112.43 86 98.72 99.71 98.72 72.28 112.43 86"/>
+    </g>
+    <g>
+      <polygon class="cls-2" points="112.43 86 126.14 72.28 126.14 99.71 112.43 86"/>
+      <polygon class="cls-2" points="112.43 86 98.72 72.28 98.72 99.71 112.43 86"/>
+    </g>
+  </g>
+</svg>

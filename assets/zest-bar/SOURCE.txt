@@ -1,0 +1,45 @@
+Zest Bar portfolio demonstration
+Original design: https://www.figma.com/design/BAhfyEn0qhKzDssbIJmW4f/Boxiong-Project-2-File
+Desktop frames: 1:2, 11:2085, 11:2556, 1:3, 11:2935, 11:3323
+Mobile frames: 3:15, 11:2149, 11:2565, 11:2178, 11:2944, 11:3341
+Assets downloaded directly from the Figma design-context responses.
+Full-screen Figma reference screenshots are not used as implementation assets.
+Major Mono Display font: https://github.com/google/fonts/tree/main/ofl/majormonodisplay
+Font license: OFL.txt
+
+The reservation form is a browser-local portfolio demonstration.
+The initial March 2025 month follows the design; weekday placement and month
+lengths use the Gregorian calendar, including leap years.
+Standalone browser and operating-system status bars are supplied by the viewing device.
+The portfolio phone model renders status chrome in a 402-point coordinate system,
+visually checked against the local iPhone 17 Pro simulator. The same scale drives
+its safe-area inset. The page fills that inset only once its menu becomes sticky.
+Mobile buttons have at least 44px touch targets. Menu ingredient text is 10px
+instead of the source's 7px, with flowing layout to accommodate the text.
+
+Portfolio case study: /work/zest-bar
+Standalone prototype: /preview/zest-bar
+About hover reference: component 170:1450 -> 206:1332, 300ms ease-out.
+Team photo uses the original 156.3% width, -32.74% left, -0.32% top crop.
+Navigation reveal/exit: 450ms vertical overlay, requested in the review.
+Reduced-motion preferences disable the reveal and hover transitions.
+Our Story copy follows Figma. Our Commitment and The Experience are editable
+drafts requested by the designer, held in zestContent.ts for later revision.
+
+Color specimen photography (curated by the photographs' existing tones; no tint filters):
+Warm light: home-photo.jpg, cocktail-01.jpg, cocktail-04.png (original Figma assets).
+Muted brown: palette-tables.jpg, cocktail-03.jpg, palette-amber.jpg.
+Deep brown: story-bar.jpg, palette-amber.jpg, story-experience.jpg.
+Near black: palette-night.jpg, cocktail-02.jpg, story-bar.jpg.
+palette-tables.jpg: Visit Gangnam, Zest gallery
+https://visitgangnam.net/en/places/zest
+https://visitgangnam.net/images/2023/04/3-min-50.jpg
+palette-night.jpg and palette-amber.jpg: Zest profile, Asia's 50 Best Bars
+https://www.the50.com/bars/best-in-asia/the-list/zest.html
+https://www.the50.com/bars/best-in-asia/filestore/jpg/Zest-hero_A50BB26-site.jpg
+https://www.the50.com/bars/best-in-asia/filestore/jpg/Zest-drink_A50BB26-site.jpg
+Retrieved 2026-10-10. Source photographs retained without recoloring.
+
+Homepage preview-identity.png, preview-menu.png, preview-reservation.png and
+preview-typography.png are captures of this project's implemented interface cards,
+rendered locally on 2026-10-10. They are not flattened Figma frame exports.

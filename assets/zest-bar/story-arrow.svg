@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="46.2322" height="36.2787" viewBox="0 0 46.2322 36.2787" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arrow">
+<mask id="stroke0_0_68" maskUnits="userSpaceOnUse" x="-0.88388" y="6" width="48" height="31" fill="black">
+<rect fill="white" x="-0.88388" y="6" width="48" height="31"/>
+<path d="M23.1161 33L4.06356 8.25L42.1687 8.25L23.1161 33Z"/>
+</mask>
+<path id="Polygon 1" d="M23.1161 33L4.06356 8.25L42.1687 8.25L23.1161 33Z" stroke-width="4" stroke="white" mask="url(#stroke0_0_68)"/>
+</g>
+</svg>
